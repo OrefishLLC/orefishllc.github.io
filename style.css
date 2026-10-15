@@ -284,6 +284,16 @@ section {
     margin-top: 20px;
 }
 
+.credentials a {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.credentials a:hover {
+    text-decoration: underline;
+}
+
 /* Products Section */
 .products {
     background: linear-gradient(180deg, var(--bg-light) 0%, white 100%);
